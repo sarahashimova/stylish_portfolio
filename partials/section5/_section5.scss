@@ -1,0 +1,41 @@
+.section5{
+    .container{
+        width: 85%;
+        margin: auto;
+        .content{
+            @include centerDiv;
+            padding-top: 100px;
+            h3{
+                font-size: 1rem;
+                font-family: $poppins_style;
+                color: $bg-yellow;
+            }
+            h2{
+                font-size: 3rem;
+                font-family: $poppins_style;
+                color: $bg-dark-grey;
+            }
+        }
+        .images{
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                width: 50%;
+                height: auto;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: fill;
+                    &:hover{
+                        scale: 80%;
+                        transition: all 0.5s ease-in-out;
+                    }
+                }
+
+            }
+            
+        }
+    }
+}

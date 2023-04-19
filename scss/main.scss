@@ -1,0 +1,120 @@
+@import "../partials/base/base";
+@import "../partials/variables/variables";
+@import "../partials/mixins/mixins";
+@import "../partials/sidebar/sidebar.scss";
+@import "../partials/section1/section1";
+@import "../partials/section2/section2";
+@import "../partials/section3/section3";
+@import "../partials/section4/section4";
+@import "../partials/section5/section5";
+@import "../partials//section6/section6";
+@import "../partials/section7/section7";
+@import "../partials/footer/footer";
+
+@media (max-width: 1133px) {
+    .section2 {
+        height: 400px;
+    }
+}
+
+@media (max-width: 852px) {
+    .section2 {
+        height: 400px;
+        div{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    .section3{
+        .container{
+            .icon_divs {
+                flex-wrap: wrap;
+                .div{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .section6 {
+        .container{
+            a{
+                display: block;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    .section2 {
+        div{
+            h2{
+                font-size: 70%;
+            }
+            p{
+                font-size: 50%;
+            }
+        }
+    }
+}
+@media (max-width: 645px) {
+    .section1 {
+        div{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    .section2 {
+        div{
+            h2{
+                font-size: 70%;
+            }
+            p{
+                font-size: 60%;
+            }
+        }
+    }
+    .section5{
+        .container {
+            .images {
+                div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 574px) {
+    .section1 {
+       width: 100%;
+    }
+    .section2 {
+        div{
+            h2{
+                font-size: 40%;
+            }
+            p{
+                font-size: 30%;
+            }
+        }
+    }
+    .section3{
+        @include centerDiv;
+        .container{
+            width: 100%;
+            .icon_divs {
+                flex-wrap: wrap;
+                .div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+main {
+    a.iconlink{
+        color: $bg-text;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        background-color: $bg-icons;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    a.iconlinks_scroll {
+        color: $bg-text;
+        position: fixed;
+        text-align: center;
+        background-color: $bg-icons;
+        bottom: 15px;
+        right: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        
+    }
+}

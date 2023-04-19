@@ -1,0 +1,25 @@
+@import "../mixins/mixins";
+.section2{
+    height: 50vh;
+    padding: 100px;
+    div{
+        width: 80%;
+        margin: auto;    
+        @include centerDiv;
+        h2{
+            font-size: 30px;
+            font-family: $poppins_style;
+        }
+        p{
+            margin-top: 15px;
+            font-weight: 300;
+            font-size: 20px;
+            font-family: $source_style;
+        }
+        a.button{
+            background-color: $bg-dark-grey;
+            color: $bg-text;
+            @include buttonLink;
+        }
+    }
+}

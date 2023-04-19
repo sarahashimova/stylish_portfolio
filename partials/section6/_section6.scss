@@ -1,0 +1,33 @@
+.section6 {
+    background-color: $bg-green;
+    padding: 140px;
+    .container {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        h2{
+        color: $bg-text;
+        padding-bottom: 50px;
+        font-family: $source_style;
+        font-size: 2rem;
+        }
+        a.light {
+           padding: 1.25rem 2.5rem;
+           background-color: $bg-text;
+           color: $bg-dark-grey;
+           text-decoration: none;
+           border-radius: 5px;
+           font-family: $poppins_style;
+           margin-right: 8px;
+        }
+        a.dark {
+            padding: 1.25rem 2.5rem;
+            text-decoration: none;
+            background-color: $bg-dark-grey;  
+            color: $bg-text; 
+            border-radius: 5px; 
+            font-family: $poppins_style;
+            margin-left: 8px;
+        }
+    }
+}

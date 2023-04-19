@@ -1,0 +1,13 @@
+@mixin buttonLink{
+    padding: 20px 35px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: $poppins_style;
+    text-decoration: none;
+}       
+@mixin centerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

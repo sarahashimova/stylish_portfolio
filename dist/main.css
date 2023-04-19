@@ -1,0 +1,411 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main a.iconlink {
+  color: white;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(52, 58, 64, 0.5);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+main a.iconlinks_scroll {
+  color: white;
+  position: fixed;
+  text-align: center;
+  background-color: rgba(52, 58, 64, 0.5);
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.section1 {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/bg-masthead.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section1 div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1 div h1 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+}
+.section1 div h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+}
+.section1 div a.button {
+  background-color: #1D809F;
+  color: white;
+  padding: 20px 35px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.section2 {
+  height: 50vh;
+  padding: 100px;
+}
+.section2 div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 div h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.section2 div p {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.section2 div a.button {
+  background-color: #212529;
+  color: white;
+  padding: 20px 35px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.section3 {
+  background-color: #1D809F;
+}
+.section3 .container {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section3 .container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .container .content h3 {
+  color: #ecb807;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.section3 .container .content h2 {
+  color: white;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+.section3 .container .icon_divs {
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .container .icon_divs div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.section3 .container .icon_divs div span {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .container .icon_divs div span i {
+  color: #1D809F;
+  font-size: 30px;
+}
+.section3 .container .icon_divs div h4 {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.section3 .container .icon_divs div p {
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: "Poppins", sans-serif;
+  color: #ced4da;
+}
+
+.section4 {
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg"), url("/images/bg-callout.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4 div h2 {
+  font-size: 3.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212529;
+  max-width: 30rem;
+  text-align: center;
+}
+.section4 div a {
+  padding: 20px 35px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #1D809F;
+}
+
+.section5 .container {
+  width: 85%;
+  margin: auto;
+}
+.section5 .container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.section5 .container .content h3 {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #ecb807;
+}
+.section5 .container .content h2 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+}
+.section5 .container .images {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section5 .container .images div {
+  width: 50%;
+  height: auto;
+}
+.section5 .container .images div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.section5 .container .images div img:hover {
+  scale: 80%;
+  transition: all 0.5s ease-in-out;
+}
+
+.section6 {
+  background-color: #1D809F;
+  padding: 140px;
+}
+.section6 .container {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.section6 .container h2 {
+  color: white;
+  padding-bottom: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+}
+.section6 .container a.light {
+  padding: 1.25rem 2.5rem;
+  background-color: white;
+  color: #212529;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 8px;
+}
+.section6 .container a.dark {
+  padding: 1.25rem 2.5rem;
+  text-decoration: none;
+  background-color: #212529;
+  color: white;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 8px;
+}
+
+.section7 {
+  height: 60vh;
+}
+.section7 iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.footer div {
+  padding-top: 100px;
+  width: 15%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer div ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer div ul li a {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  padding-top: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+
+@media (max-width: 1133px) {
+  .section2 {
+    height: 400px;
+  }
+}
+@media (max-width: 852px) {
+  .section2 {
+    height: 400px;
+  }
+  .section2 div h2 {
+    font-size: 30px;
+  }
+  .section2 div p {
+    font-size: 20px;
+  }
+  .section3 .container .icon_divs {
+    flex-wrap: wrap;
+  }
+  .section3 .container .icon_divs .div {
+    width: 50%;
+  }
+  .section6 .container a {
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .section2 div h2 {
+    font-size: 70%;
+  }
+  .section2 div p {
+    font-size: 50%;
+  }
+}
+@media (max-width: 645px) {
+  .section1 div h1 {
+    font-size: 40px;
+  }
+  .section2 div h2 {
+    font-size: 70%;
+  }
+  .section2 div p {
+    font-size: 60%;
+  }
+  .section5 .container .images div {
+    width: 100%;
+  }
+}
+@media (max-width: 574px) {
+  .section1 {
+    width: 100%;
+  }
+  .section2 div h2 {
+    font-size: 40%;
+  }
+  .section2 div p {
+    font-size: 30%;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .container {
+    width: 100%;
+  }
+  .section3 .container .icon_divs {
+    flex-wrap: wrap;
+  }
+  .section3 .container .icon_divs .div {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

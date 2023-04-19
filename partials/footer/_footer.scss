@@ -1,0 +1,39 @@
+.footer{
+    @include centerDiv;
+    padding-bottom: 60px;
+    div{
+       padding-top: 100px;
+       width: 15%;
+       margin: auto;
+       @include centerDiv;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            li{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+                a{
+                    display: block;
+                    text-decoration: none;
+                    height: 4rem;
+                    width: 4rem;
+                    line-height: 4.3rem;
+                    font-size: 1.5rem;
+                    background-color: $bg-green;
+                    color: $bg-text;
+                    border-radius: 50%;
+                    @include centerDiv;
+                }
+            }
+        }
+    }
+    p{
+        padding-top: 40px;
+        font-family: $source_style;
+        font-size: 0.875em;
+        color: #6c757d;
+        
+    }
+}

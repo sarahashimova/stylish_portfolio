@@ -1,0 +1,27 @@
+.section4{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), 
+    url("../assets/img/bg-callout.jpg"),url('/images/bg-callout.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include centerDiv;
+    div{
+        @include centerDiv;
+        
+        h2{
+            font-size: 3.5rem;
+            font-family: $source_style;
+            color: $bg-dark-grey;
+            max-width: 30rem;
+            text-align: center
+            
+        }
+        a {
+            @include buttonLink;
+            display: inline-block;
+            color: $bg-text;
+            background-color: $bg-green;
+        }
+    }
+}
